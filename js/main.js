@@ -2,7 +2,7 @@ let target = document.querySelector ("#danamic");
 
 
     function randomString(){
-        let stringArr = [ "Learn to HTML", "Learn to CSS", "Learn to Javascript", "Learn to Python", "Learn to Ruby"];
+        let stringArr = [ "Let's Read", "Let's Write", "Let's Do it", "Let's Learn", "Let's Pray"];
         let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
         let selectStringArr = selectString.split("");
 
